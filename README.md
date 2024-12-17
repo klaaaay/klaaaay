@@ -60,10 +60,6 @@
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/klaaaay/klaaaay/output/snake.svg" alt="Snake animation" />
-
 ###
 
 <p align="center">Profile Views</p>
