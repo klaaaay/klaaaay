@@ -123,6 +123,16 @@ Below is a visual representation of my proficiency in different programming lang
     />
   </svg>
 </div>
-###
+
+### Skill Levels
+- 🟠 **HTML**: 30%
+- 🔵 **CSS**: 20%
+- 🟡 **JavaScript**: 25%
+- 🔷 **Python**: 15%
+- ⚫ **Assembly**: 10%
+
+---
+
+## Social Links
 
 ###
