@@ -65,9 +65,24 @@
 <p align="center">Profile Views</p>
 
 ###
+<div style="text-align: center;">
+    <h1>عدد الزوار: <span id="visitor-count">2800</span></h1>
+  </div>
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/klaaaay/count.svg?"  />
-</div>
+  <script>
+    // تحميل الرقم الأولي من localStorage (إذا كان موجودًا) أو البدء من 2800
+    let visitorCount = localStorage.getItem("visitorCount") 
+      ? parseInt(localStorage.getItem("visitorCount")) 
+      : 2800;
+
+    // تحديث العدد في HTML
+    document.getElementById("visitor-count").textContent = visitorCount;
+
+    // زيادة العدد بمقدار 1 عند زيارة الصفحة
+    visitorCount++;
+    
+    // تخزين العدد المحدث في localStorage
+    localStorage.setItem("visitorCount", visitorCount);
+  </script>
 
 ###
