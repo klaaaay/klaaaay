@@ -61,28 +61,37 @@
 ###
 
 ###
+# Visitor Counter
 
-<p align="center">Profile Views</p>
+A simple visitor counter built using HTML, CSS, and JavaScript. This counter starts from 2800 and increments by 1 every time the page is loaded. The visitor count is stored locally in the browser using `localStorage`.
 
-###
+## Features
+- Starts counting from a specified number (default: 2800).
+- Increments the visitor count on each page load.
+- Stores the visitor count locally using `localStorage`.
+
+## Code Example
+
+
 <div style="text-align: center;">
     <h1>عدد الزوار: <span id="visitor-count">2800</span></h1>
-  </div>
+</div>
 
-  <script>
-    // تحميل الرقم الأولي من localStorage (إذا كان موجودًا) أو البدء من 2800
+<script>
+    // Load the initial number from localStorage or start at 2800
     let visitorCount = localStorage.getItem("visitorCount") 
       ? parseInt(localStorage.getItem("visitorCount")) 
       : 2800;
 
-    // تحديث العدد في HTML
+    // Update the count in the HTML
     document.getElementById("visitor-count").textContent = visitorCount;
 
-    // زيادة العدد بمقدار 1 عند زيارة الصفحة
+    // Increment the count by 1 on each page load
     visitorCount++;
     
-    // تخزين العدد المحدث في localStorage
+    // Store the updated count in localStorage
     localStorage.setItem("visitorCount", visitorCount);
-  </script>
+</script>
+
 
 ###
