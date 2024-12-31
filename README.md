@@ -61,8 +61,9 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/klaaaay/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/klaaaay/count.svg" alt="Visitor Counter" />
 </div>
+
 
 
 ###
